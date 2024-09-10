@@ -3,9 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { router } from './Routes/Routers.jsx'
 import { RouterProvider } from 'react-router-dom'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <SpeedInsights/>
     <RouterProvider router={router} />
     </StrictMode>,
 )

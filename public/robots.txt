@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://triogenexports.com/sitemap.xml
