@@ -2,7 +2,7 @@
 const ComingSoon = () => {
     return (
         <div className="h-screen bg-green-100 flex items-center justify-center flex-col">
-        <h1 className="  text-4xl md:text-6xl font-bold text-green-800 animate-bounce">Coming Soon</h1>
+        <h2 className="  text-4xl md:text-6xl font-bold text-green-800 animate-bounce">Coming Soon</h2>
         <p className="text-xl text-center text-green-700 mt-4">Triogen Export is growing. <br className="md:hidden " /> Stay tuned!</p>
   
         <div className="mt-10">
