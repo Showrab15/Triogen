@@ -1,0 +1,11 @@
+.thumbs-wrapper{
+    display: none;
+}
+.carousel .control-dots {
+    bottom: 6px;
+  }
+  .carousel-status{
+    display: none;
+  }
+  /* For larger devices like tablets and desktops (min-width: 768px) */
+ 

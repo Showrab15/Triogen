@@ -1,0 +1,19 @@
+/* Custom CSS for auto-scroll animation */
+.scrolling-wrapper {
+    white-space: nowrap;
+    animation: scroll 15s linear infinite;
+  }
+  
+  .scrolling-wrapper img {
+    display: inline-block;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

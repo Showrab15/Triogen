@@ -9,6 +9,9 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <SpeedInsights/>
     <Analytics/>
-    <RouterProvider router={router} />
+<div className='overflow-x-hidden  font-serif max-w-screen-2xl mx-auto bg-gray-700 bg-[#E5D 9B6]'>
+<RouterProvider router={router} />
+
+</div>
     </StrictMode>,
 )
