@@ -30,7 +30,7 @@ const Header = () => {
             <div className="absolute inset-0 flex justify-end items-center">
               <div className="font-serif flex flex-col items-center mx-auto my-auto text-white">
                 <button className="bg-green-700 text-white rounded-[18px] px-4 sm:px-5 py-3 md:mt-[250px] lg:mt-[350px] mt-20 sm:mt-60 sm:text-lg text-sm tracking-[0.081em] transition-transform duration-300 hover:scale-105">
-                  <Link to="/investors"> Become An Investor</Link>
+                  <Link to="/about-us"> Contact Us</Link>
                 </button>
               </div>
             </div>
@@ -57,8 +57,8 @@ const Header = () => {
 
             <div className="absolute inset-0 flex justify-end items-center">
               <div className="font-serif flex flex-col items-center mx-auto my-auto text-white">
-              <button className="bg-green-700 text-white rounded-[18px] px-4 sm:px-5 py-3 md:mt-[250px] lg:mt-[350px] mt-20 sm:mt-60 sm:text-lg text-sm tracking-[0.081em] transition-transform duration-300 hover:scale-105">
-                  <Link to="/investors"> Become An Investor</Link>
+                <button className="bg-green-700 text-white rounded-[18px] px-4 sm:px-5 py-3 md:mt-[250px] lg:mt-[350px] mt-20 sm:mt-60 sm:text-lg text-sm tracking-[0.081em] transition-transform duration-300 hover:scale-105">
+                  <Link to="/about-us"> Contact US</Link>
                 </button>
               </div>
             </div>

@@ -23,7 +23,7 @@ const Navbar = () => {
           />
         </Link>
         <nav>
-          <ul className="font-serif   hidden md:flex items-center justify-center space-x-9 text-lg text-[#f4e5c2] font-medium relative ">
+          <ul className="font-serif mr-20  hidden md:flex items-center justify-center space-x-9 text-lg text-[#f4e5c2] font-medium relative ">
             <li>
               <NavLink
                 to="/"
@@ -66,11 +66,11 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <Link to="/contact-us ">
+        {/* <Link to="/contact-us ">
           <button className="mr-20 bg-[#f4e5c2] hover:bg-white color-9 hidden border-none p-3 rounded-xl md:block  text-black text-base">
             Contact Us
           </button>
-        </Link>
+        </Link> */}
 
         {/*----------------------- Mobile Menu -------------------------*/}
         <div className="md:hidden">
@@ -168,11 +168,11 @@ const Navbar = () => {
                 </NavLink>
               </li>
             </ul>
-            <Link to="/contact-us">
+            {/* <Link to="/contact-us">
               <button className="bg-[#f4e5c2] hover:bg-white border-none p-3 rounded-md text-black text-sm font-semibold font-Montserrat leading-[22px] mt-4">
                 CONTACT <span className="ml-[15px]">→</span>
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
