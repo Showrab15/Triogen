@@ -5,7 +5,7 @@ import Insights from "./Insights";
 import BecomeInvestors from "./BecomeInvestors";
 const Investors = () => {
   return (
-    <div>
+    <div className="bg-white">
       <div
         style={{
           backgroundImage: `url(${offeringBanner})`,
