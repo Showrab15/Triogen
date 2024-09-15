@@ -3,7 +3,6 @@ import Riskandstragety from "../../assets/Riskandstragety.jpg";
 const Insights = () => {
   return (
     <div className="p-1 0 mx-auto  md:p-0 grid lg:grid-cols-2 gap-12 mt-20">
-
       <header
         className="hover:bg-[#f4e5c2] hover:animate-pulse cursor-pointer sm:w-[500px]  
        gap-4 items-center shadow-md rounded-lg p-6 mb-6 mx-auto transition-colors duration-300 "
@@ -45,7 +44,6 @@ const Insights = () => {
           </h5>
         </div>
       </header>
-      
     </div>
   );
 };
