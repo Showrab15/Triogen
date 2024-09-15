@@ -12,7 +12,7 @@ const BecomeInvestors = () => {
           Contact Us
         </h2>
         <h4 className="text-white text-xs sm:text-base lg:text-lg font-medium opacity-45 ">
-          triogeninternational@gmail.com
+          triogendubai@gmail.com
         </h4>
         <h4 className="text-white text-xs sm:text-base lg:text-lg font-medium opacity-45">
           +91 94433 33122 <span className="mx-2">|</span> +971 54 265 3665
