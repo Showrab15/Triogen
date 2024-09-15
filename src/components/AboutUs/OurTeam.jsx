@@ -2,15 +2,16 @@
 const OurTeam = () => {
   const cards = [
     {
-      name: 'S. Senthil Vendhan',
-      image: 'https://i.ibb.co.com/sRSt2WN/senthil.jpg',
-      description: 'High-quality cocopeat for gardening.',
-    },
-    {
       name: 'V.Karthik Prabhu',
       image: 'https://i.ibb.co.com/2PtHxRN/karthik.jpg',
       description: 'Best cocopeat for moisture retention.',
     },
+    {
+      name: 'S. Senthil Vendhan',
+      image: 'https://i.ibb.co.com/sRSt2WN/senthil.jpg',
+      description: 'High-quality cocopeat for gardening.',
+    },
+   
     {
       name: 'Mohammed Faizhanudin',
       image: 'https://i.ibb.co.com/gSmHxD0/man.png',
@@ -20,8 +21,8 @@ const OurTeam = () => {
 
   return (
    <>
-   <h1 className="p-10 text-2xl sm:text-4xl lg:text-7xl font-bold text-[#f4e5c2] text-center">Our Members</h1>
-    <div className="flex flex-col md:flex-row justify-center items-center gap-8  p-4">
+   <h1 className="p-10 text-2xl sm:text-4xl lg:text-7xl font-bold text-[#f4e5c2] text-center">Our Directors</h1>
+    <div className="mb-8 flex flex-col md:flex-row justify-center items-center gap-8  p-4">
       {cards.map((card, index) => (
         <div
           key={index}

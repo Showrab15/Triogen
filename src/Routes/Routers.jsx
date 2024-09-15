@@ -7,6 +7,7 @@ import AboutUs from "../pages/AboutUs/AboutUs";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import Investors from "../components/Investors/Investors";
 import Products from "../pages/Products/Products";
+import MainHome from "../pages/MainHome/MainHome";
   
  export const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ import Products from "../pages/Products/Products";
       children:[
         {
           path : '/',
+          element : <MainHome/>
+        },
+        {
+          path : '/home',
           element : <Home/>
         },
         {

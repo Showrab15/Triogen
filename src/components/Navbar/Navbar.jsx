@@ -26,7 +26,7 @@ const Navbar = () => {
           <ul className="font-serif mr-20  hidden md:flex items-center justify-center space-x-9 text-lg text-[#f4e5c2] font-medium relative ">
             <li>
               <NavLink
-                to="/"
+                to="/home"
                 aria-label="Home"
                 title="Home"
                 className="hover:text-white"
@@ -120,7 +120,7 @@ const Navbar = () => {
             <ul className="flex flex-col gap-4 text-left font-medium font-serif leading-6 text-[16px] text-white">
               <li>
                 <NavLink
-                  to="/"
+                  to="/home"
                   aria-label="Home"
                   title="Home"
                   className={({ isActive, isPending }) =>
@@ -146,7 +146,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                  to="investors"
+                  to="/investors"
                   aria-label="investors"
                   title="investors"
                   className={({ isActive, isPending }) =>
