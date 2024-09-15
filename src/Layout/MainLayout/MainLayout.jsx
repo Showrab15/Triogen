@@ -63,13 +63,15 @@ const MainLayout = () => {
         </div>
       ) : (
         <>
+
           <Navbar />
-          <Whatsapp/>
-          <BackToTopbtn/>
           <Outlet />
           <Footer />
           <SpeedInsights />
           <Analytics />
+          <Whatsapp/>
+          <BackToTopbtn/>
+
         </>
       )}
     </>
