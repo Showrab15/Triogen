@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { DotLoader } from "react-spinners";
+import { Helmet } from "react-helmet";
 
 const MainLayout = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -20,6 +21,28 @@ const MainLayout = () => {
 
   return (
     <>
+      <Helmet>
+        <title>
+          Triogen Exports | Innovating for a greener, sustainable future in all
+          climates
+        </title>
+        <meta
+          property="og:title"
+          content="Triogen Exports | Innovating for a greener, sustainable future in all climates"
+        />
+        <meta
+          property="og:description"
+          content="Triogen is a coir manufacturing & trading company, pioneering innovative deals eco-friendly 
+          coir based products to provide eco-friendly solutions and efficient agricultural practices."
+        />
+        <meta property="og:url" content="https://www.triogenexports.com/" />
+        <link rel="canonical" href="https://www.triogenexports.com/" />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co.com/Xjw2hM1/triogenblack.png"
+        />
+      </Helmet>
+
       {isLoading ? (
         <div className="flex items-center justify-center min-h-screen bg-brown-50">
           <div className="relative flex items-center justify-center">
