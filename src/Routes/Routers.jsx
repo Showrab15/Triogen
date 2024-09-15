@@ -4,7 +4,6 @@ import {
 import MainLayout from "../Layout/MainLayout/MainLayout";
 import Home from "../pages/Home/Home/Home";
 import AboutUs from "../pages/AboutUs/AboutUs";
-import ContactUs from "../pages/ContactUs/ContactUs";
 import Products from "../pages/Products/Products";
 import MainHome from "../pages/MainHome/MainHome";
 import Investors from "../pages/Investors/Investors";
@@ -28,10 +27,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
           path : '/about-us',
           element : <AboutUs/>
         },
-        {
-          path : '/contact-us',
-          element : <ContactUs/>
-        },
+        
         {
           path : '/investors',
           element : <Investors/>

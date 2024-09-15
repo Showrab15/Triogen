@@ -2,6 +2,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useState } from "react";
 import OurTeam from "../../components/AboutUs/OurTeam";
 import AboutUsHeader from "../../components/AboutUs/AboutUsHeader";
+import { Helmet } from "react-helmet-async";
 
 const AboutUs = () => {
   const [isHoveringMission, setIsHoveringMission] = useState(false);
@@ -22,7 +23,32 @@ const AboutUs = () => {
 
   return (
     <>
-    <AboutUsHeader/>
+      <Helmet prioritizeSeoTags>
+        <title>
+          About Us || Pioneering Sustainable Cocopeat Solutions - Triogen
+          Exports
+        </title>
+        <meta
+          property="og:title"
+          content=" About Us || Pioneering Sustainable Cocopeat Solutions - Triogen
+          Exports"
+        />
+        <meta
+          property="og:description"
+          content="At Triogen Exports, we are committed to innovating eco-friendly cocopeat solutions that foster sustainable agricultural practices. With a global presence across 14+ countries, we take pride in delivering high-quality, environmentally-conscious products.
+           Learn more about our mission, values, and the vision that drives us towards a greener future"
+        />
+        <meta
+          property="og:url"
+          content="https://www.triogenexports.com/about-us"
+        />
+        <link rel="canonical" href="https://www.triogenexports.com/about-us" />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co.com/Xjw2hM1/triogenblack.png"
+        />
+      </Helmet>
+      <AboutUsHeader />
       <div className="flex lg:flex-row flex-col  justify-center items-center gap-2  lg:gap-10 p-20 relative mb-24">
         {/* Mission Circle */}
         <motion.div
