@@ -8,11 +8,13 @@ import ContactUs from "../pages/ContactUs/ContactUs";
 import Products from "../pages/Products/Products";
 import MainHome from "../pages/MainHome/MainHome";
 import Investors from "../pages/Investors/Investors";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
   
  export const router = createBrowserRouter([
     {
       path: "/",
       element: <MainLayout/>,
+      errorElement: <ErrorPage/>,
       children:[
         {
           path : '/',

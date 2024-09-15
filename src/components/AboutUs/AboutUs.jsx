@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import aboutUsbanner from "../../assets/abt us imagge.png";
 const AboutUs = () => {
   return (
@@ -23,7 +24,8 @@ const AboutUs = () => {
         </p>
 
         <button className="mt-6 bg-[#252c30] text-[#f4e5c2] font-semibold py-3 px-6 rounded-full relative group">
-          For More Details
+<Link to="/about-us">          For More Details
+</Link>
           <span className="absolute left-48 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300 text-green-500">
             ➜
           </span>

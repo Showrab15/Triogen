@@ -22,8 +22,8 @@ const Footer = () => {
                 <p className="mb-3 mr-1  w-48">
                 triogendubai@gmail.com
                 </p>
-                <p className="mb-3 mr-1 w-48">Mobile : +91 94433 33122</p>
-                <p className="mb-3 mr-1 w-48">Mobile : +971 54 265 3665</p>
+                <p className="mb-3 mr-1 w-52">Mobile : +91 94433 33122 (IND)</p>
+                <p className="mb-3 mr- w-56">Mobile : +971 54 265 3665 (UAE)</p>
 
                 {/* social icon */}
                 <SocialFooterIcons></SocialFooterIcons>
@@ -50,9 +50,7 @@ const Footer = () => {
                     About Us
                   </Link>
                 </li>
-                <li className="mb-2">
-                  <Link to="/offerings">Offerings</Link>
-                </li>
+                
                 <li>
                   <Link to="/">Contact</Link>
                 </li>
