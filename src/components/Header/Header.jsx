@@ -2,6 +2,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Header.css";
 import BgVideoPC from "../../assets/6159959-uhd_2560_1440_24fps.mp4";
+import banner from "../../assets/banner.mov";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
               {/* <source className="hidden sm:block" src={BgVideoMobile}  type="video/mp4" /> */}
               <source
                 className="block sm:hidden "
-                src={BgVideoPC}
+                src={banner}
                 type="video/mp4"
               />
               {/* Add additional <source> tags for other video formats if needed */}
