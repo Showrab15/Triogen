@@ -5,7 +5,7 @@ const Insights = () => {
     <div className="p-1 0 mx-auto  md:p-0 grid lg:grid-cols-2 gap-12 mt-20">
 
       <header
-        className="hover:bg-[#f4e5c2] hover:animate-pulse cursor-pointer md:w-[500px]  
+        className="hover:bg-[#f4e5c2] hover:animate-pulse cursor-pointer sm:w-[500px]  
        gap-4 items-center shadow-md rounded-lg p-6 mb-6 mx-auto transition-colors duration-300 "
       >
         <img
@@ -26,7 +26,7 @@ const Insights = () => {
         </div>
       </header>
 
-      <header className="hover:bg-[#f4e5c2] hover:animate-pulse cursor-pointer  md:w-[500px]   gap-4 items-center shadow-md rounded-lg p-6 mb-6 mx-auto transition-colors duration-300 ">
+      <header className="hover:bg-[#f4e5c2] hover:animate-pulse cursor-pointer  sm:w-[500px]   gap-4 items-center shadow-md rounded-lg p-6 mb-6 mx-auto transition-colors duration-300 ">
         <img
           className="w-[400px] pt-8 h-[300px] mx-auto"
           src={Riskandstragety}
