@@ -17,11 +17,10 @@ const Footer = () => {
                 alt="logo"
               />
               <div className="-ml-3">
-                <p className="mb-3 mr-2">
-                  Website : https://www.triogenexports.com
+                <p className="mb-3 mr-2"> <a className="cursor-pointer text-blue-300" href="http://www.triogenexports.com" target="_blank" rel="noopener noreferrer">Triogen Exports</a>
                 </p>
                 <p className="mb-3 mr-1  w-48">
-                  Email : triogeninternation@gmail.com
+                  triogeninternation@gmail.com
                 </p>
                 <p className="mb-3 mr-1 w-48">Mobile : +91 94433 33122</p>
                 <p className="mb-3 mr-1 w-48">Mobile : +971 54 265 3665</p>
@@ -32,7 +31,7 @@ const Footer = () => {
             </div>
 
             {/* useful links */}
-            <div className="mt-4 md:ml-10 lg:ml-20">
+            <div className="mt-4 md:ml-10 lg:ml-20 ml-4">
               <h1 className=" text-base md:text-lg font-semibold mb-5">
                 Our Links
               </h1>
@@ -81,7 +80,7 @@ const Footer = () => {
             </div>
 
             {/* support */}
-            <div className="md:mt-4 lg:ml-20">
+            <div className="md:mt-4 lg:ml-20 ">
               <h1 className="text-base md:text-lg font-semibold mb-5">
                 Our Support
               </h1>

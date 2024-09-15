@@ -146,12 +146,15 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                  to="/investors"
+                  to="investors"
                   aria-label="investors"
                   title="investors"
-                  className="hover:text-white"
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? " font-semibold" : " "
+                  }
+                  onClick={closeMenu} // Close menu when clicked
                 >
-                  Investors
+                 Investors
                 </NavLink>
               </li>
               <li>
