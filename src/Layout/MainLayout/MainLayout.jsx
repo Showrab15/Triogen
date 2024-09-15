@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { DotLoader } from "react-spinners";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const MainLayout = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,7 +21,7 @@ const MainLayout = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet prioritizeSeoTags>
         <title>
           Triogen Exports | Innovating for a greener, sustainable future in all
           climates

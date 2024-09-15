@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import Header from "../../components/Header/Header";
 import Products from "../../components/Products/Products";
@@ -9,7 +9,7 @@ import Testimonial from "../../components/Testimonial/Testimonial";
 const MainHome = () => {
     return (
         <>
-         <Helmet>
+         <Helmet prioritizeSeoTags>
         <title>
           Triogen Exports | Innovating for a greener, sustainable future in all
           climates

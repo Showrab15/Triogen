@@ -3,12 +3,12 @@ import InvestorsHeader from "../../components/Investors/InvestorsHeader";
 import Countires from "../../components/Investors/Countires";
 import Insights from "../../components/Investors/Insights";
 import BecomeInvestors from "../../components/Investors/BecomeInvestors";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Investors = () => {
   return (
     <>
-      <Helmet>
+      <Helmet prioritizeSeoTags>
         <title>Investors || Cocopeat Solutions for a Sustainable Future</title>
         <meta
           property="og:title"
