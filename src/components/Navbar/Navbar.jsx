@@ -66,11 +66,7 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        {/* <Link to="/contact-us ">
-          <button className="mr-20 bg-[#f4e5c2] hover:bg-white color-9 hidden border-none p-3 rounded-xl md:block  text-black text-base">
-            Contact Us
-          </button>
-        </Link> */}
+       
 
         {/*----------------------- Mobile Menu -------------------------*/}
         <div className="md:hidden">
@@ -171,11 +167,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
             </ul>
-            {/* <Link to="/contact-us">
-              <button className="bg-[#f4e5c2] hover:bg-white border-none p-3 rounded-md text-black text-sm font-semibold font-Montserrat leading-[22px] mt-4">
-                CONTACT <span className="ml-[15px]">→</span>
-              </button>
-            </Link> */}
+           
           </div>
         </div>
       </div>

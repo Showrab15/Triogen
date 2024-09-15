@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import { SpeedInsights } from "@vercel/speed-insights/react";
@@ -6,6 +7,8 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { DotLoader } from "react-spinners";
 import { Helmet } from "react-helmet-async";
+import Whatsapp from "../../components/Whatsapp";
+import BackToTopbtn from "../../components/BackToTopBtn/BackToTopBtn";
 
 const MainLayout = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -61,6 +64,8 @@ const MainLayout = () => {
       ) : (
         <>
           <Navbar />
+          <Whatsapp/>
+          <BackToTopbtn/>
           <Outlet />
           <Footer />
           <SpeedInsights />

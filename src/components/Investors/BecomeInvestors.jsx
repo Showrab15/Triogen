@@ -1,4 +1,37 @@
+import  {  useState } from 'react';
+import emailjs from '@emailjs/browser';
+
 const BecomeInvestors = () => {
+
+  const [email, setEmail] = useState("");
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const templateParams = {
+      user_email: email,  // This should match the placeholder in your template
+    };
+
+    emailjs
+      .send(
+        "service_a3not7m",  // Replace with your service ID
+        "template_xy6rz89",  // Replace with your template ID
+        templateParams,
+        "tYbO0EZ1XPMA3P9Od"  // Replace with your user ID
+      )
+      .then(
+        (result) => {
+          console.log("Email successfully sent!");
+          console.log(result)
+        },
+        (error) => {
+          console.error("Failed to send email:", error);
+        }
+      );
+  };
+
+
+
   return (
     <div className="grid  grid-cols-2 lg:grid-cols-3 gap-18 mt-20 bg-green-700 p-10 rounded-md">
       <div>
@@ -19,7 +52,8 @@ const BecomeInvestors = () => {
         </h4>
         <h4 className="text-white text-lg font-medium  opacity-45"></h4>
       </div>
-      <div className="mt-10 flex items-center">
+
+      {/* <div className="mt-10 flex items-center">
         <input
           name="user_email"
           type="text"
@@ -31,7 +65,24 @@ const BecomeInvestors = () => {
           value="Send"
           className=" px-4  text-black bg-[#f4e5c2]  font-medium py-[9px] cursor-pointer"
         />
-      </div>{" "}
+      </div>{" "} */}
+    <div className="mt-10 flex items-center">
+      <form onSubmit={sendEmail}>
+        <input
+          name="user_email"
+          type="text"
+          className="border py-2 focus:outline-[#275998] pl-[14px]"
+          placeholder="Email-ID"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="submit"
+          value="Send"
+          className="px-4 text-black bg-[#f4e5c2] font-medium py-[9px] cursor-pointer"
+        />
+      </form>
+    </div>
     </div>
   );
 };
