@@ -43,7 +43,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                   <Link
-                    to="/about-Us"
+                    to="/about-us"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
