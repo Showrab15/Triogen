@@ -3,10 +3,10 @@ import "./products.css";
 const Products = () => {
   return (
     <>
-      <div className=" text-center  bg-[#3A5F0B]  py-24 ">
+      <div className=" text-center  bg-gray-700  py-10 ">
         {/* Background Text */}
-        <div className="  relative text-center ">
-          <h1 className="opacity-40 text-[60px] lg:text-[120px] font-bold text-gray-700 uppercase tracking-wide absolute inset-0 flex justify-center items-center z-0 select-none">
+        <div className="mt-8   relative text-center ">
+          <h1 className="opacity-40 text-[60px] lg:text-[120px] font-bold text-green-700 uppercase tracking-wide absolute inset-0 flex justify-center items-center z-0 select-none">
             Triogen
           </h1>
 
@@ -49,7 +49,7 @@ const Products = () => {
           </div>
         </section>
 
-        <button className="mt-6 bg-[#252c30] text-[#f4e5c2] font-semibold py-3 px-6 rounded-full relative group">
+        <button className="mt-8 bg-[#252c30] text-[#f4e5c2] font-semibold py-3 px-6 rounded-full relative group">
           <Link to="/products"> View More</Link>
           <span className="absolute left-48 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300 text-green-500">
             ➜

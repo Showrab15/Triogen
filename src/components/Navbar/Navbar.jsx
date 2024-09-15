@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" bg-[#295f4e]   font-serif">
+    <div className=" bg-[#295f4e]  ">
       <div className="flex items-center flex-row justify-between   py-5 relative w-full max-w-[1322px] mx-auto">
         <Link to="/">
           <img
@@ -23,7 +23,7 @@ const Navbar = () => {
           />
         </Link>
         <nav>
-          <ul className="font-serif mr-20  hidden md:flex items-center justify-center space-x-9 text-lg text-[#f4e5c2] font-medium relative ">
+          <ul className=" mr-20  hidden md:flex items-center justify-center space-x-9 text-lg text-[#f4e5c2] font-medium relative ">
             <li>
               <NavLink
                 to="/home"
@@ -117,7 +117,7 @@ const Navbar = () => {
               menuOpen ? "bg-gray-700 mb-20 menuOpen" : ""
             }`}
           >
-            <ul className="flex flex-col gap-4 text-left font-medium font-serif leading-6 text-[16px] text-white">
+            <ul className="flex flex-col gap-4 text-left font-medium  leading-6 text-[16px] text-white">
               <li>
                 <NavLink
                   to="/home"

@@ -1,7 +1,7 @@
 import aboutUsbanner from "../../assets/abt us imagge.png";
 const AboutUs = () => {
   return (
-    <div className="font-serif relative bg-cover bg-center  mt-10">
+    <div className=" relative bg-cover bg-center  mt-10">
       <div
         className="h-[300px] md:h-[450px] absolute inset-0  opacity-80 shadow-transparent bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${aboutUsbanner})` }}

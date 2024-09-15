@@ -6,8 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
-    <footer className="mt- font-serif">
-      <div className="bg-[#295f4e]  text-white font-serif">
+    <footer className="mt- ">
+      <div className="bg-[#295f4e]  text-white ">
         <div className=" mx-auto pt-2">
           <div className="grid mx-auto ml-[40px] md:ml-4 grid-cols-2 gap-[65px] md:grid-cols-4 md:gap-6 mt-4 ">
             <div className="md:ml-8 text-sm">
@@ -20,7 +20,7 @@ const Footer = () => {
                 <p className="mb-3 mr-2"> <a className="cursor-pointer text-blue-300" href="http://www.triogenexports.com" target="_blank" rel="noopener noreferrer">Triogen Exports</a>
                 </p>
                 <p className="mb-3 mr-1  w-48">
-                  triogeninternation@gmail.com
+                triogendubai@gmail.com
                 </p>
                 <p className="mb-3 mr-1 w-48">Mobile : +91 94433 33122</p>
                 <p className="mb-3 mr-1 w-48">Mobile : +971 54 265 3665</p>

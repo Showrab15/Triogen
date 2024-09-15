@@ -23,7 +23,7 @@ export default {
 
 
     fontFamily: {
-      serif: ["Montserrat", "sans-serif"],
+      serif: ["Montserrat" ],
     },
     extend: {},
   },

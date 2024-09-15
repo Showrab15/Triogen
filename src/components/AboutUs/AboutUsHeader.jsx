@@ -8,7 +8,7 @@ const AboutUsHeader = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
-        className="opacity-60 w-full font-serif text-center
+        className="opacity-60 w-full text-center
          md:h-[350px] h-[200px] lg:h-[534px] 2xl:h-[510px] flex   items-center"
       >
         {" "}

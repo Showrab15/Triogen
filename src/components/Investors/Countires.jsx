@@ -1,30 +1,20 @@
 import europeFlag from "../../assets/europe.png";
-import malaysiaFlag from "../../assets/malaysia.png";
 import AFGFlag from "../../assets/Afganisthan.png";
-import chinaFlag from "../../assets/china.png";
 import GermanyFlag from "../../assets/Germany.png";
 import INDFlag from "../../assets/INDIA.png";
-import singaporeFlag from "../../assets/singapore.png";
-import USAFlag from "../../assets/USA.png";
 import UAEFlag from "../../assets/UAE.png";
 import spainFlag from "../../assets/spain.png";
-import southCoreaFlag from "../../assets/south korea .png";
 import SAFlag from "../../assets/south africa.png";
 
 import "./Countries.css";
 const Countires = () => {
   const clientLogos = [
     { src: europeFlag, alt: "europeFlag" },
-    { src: malaysiaFlag, alt: "malaysiaFlag" },
     { src: AFGFlag, alt: "AFGFlag" },
-    { src: chinaFlag, alt: "chinaFlag" },
     { src: GermanyFlag, alt: "GermanyFlag" },
     { src: INDFlag, alt: "INDFlag" },
-    { src: singaporeFlag, alt: "singaporeFlag" },
-    { src: USAFlag, alt: "USAFlag" },
     { src: UAEFlag, alt: "UAEFlag" },
     { src: spainFlag, alt: "spainFlag" },
-    { src: southCoreaFlag, alt: "southCoreaFlag" },
     { src: SAFlag, alt: "SAFlag" },
   ];
 

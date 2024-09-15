@@ -28,8 +28,8 @@ const Header = () => {
             </video>
 
             <div className="absolute inset-0 flex justify-end items-center">
-              <div className="font-serif flex flex-col items-center mx-auto my-auto text-white">
-                <button className="bg-green-700 text-white rounded-[18px] px-4 sm:px-5 py-3 md:mt-[250px] lg:mt-[350px] mt-20 sm:mt-60 sm:text-lg text-sm tracking-[0.081em] transition-transform duration-300 hover:scale-105">
+              <div className=" flex flex-col items-center mx-auto my-auto text-white">
+                <button className="bg-green-700 text-white rounded-[12px] px-4 sm:px-5 py-3 md:mt-[250px] lg:mt-[350px] mt-20 sm:mt-60 sm:text-lg text-sm tracking-[0.081em] transition-transform duration-300 hover:scale-105">
                   <Link to="/about-us"> Contact Us</Link>
                 </button>
               </div>
@@ -56,8 +56,8 @@ const Header = () => {
             </video>
 
             <div className="absolute inset-0 flex justify-end items-center">
-              <div className="font-serif flex flex-col items-center mx-auto my-auto text-white">
-                <button className="bg-green-700 text-white rounded-[18px] px-4 sm:px-5 py-3 md:mt-[250px] lg:mt-[350px] mt-20 sm:mt-60 sm:text-lg text-sm tracking-[0.081em] transition-transform duration-300 hover:scale-105">
+              <div className=" flex flex-col items-center mx-auto my-auto text-white">
+                <button className="bg-green-700 text-white rounded-[12px] px-4 sm:px-5 py-3 md:mt-[250px] lg:mt-[350px] mt-20 sm:mt-60 sm:text-lg text-sm tracking-[0.081em] transition-transform duration-300 hover:scale-105">
                   <Link to="/about-us"> Contact US</Link>
                 </button>
               </div>
@@ -65,7 +65,7 @@ const Header = () => {
           </div>
         </Carousel>
       </div>
-      <div className="font-serif text-center p-4">
+      <div className="font- text-center p-4">
         <h1 className=" mt-4 text-white text-2xl lg:text-4xl font-bold">
           Welcome to{" "}
           <span className="text-[#3A 5F0B] text-green-700 ">Triogen</span>

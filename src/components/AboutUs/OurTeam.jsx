@@ -14,7 +14,7 @@ const OurTeam = () => {
    
     {
       name: 'Mohammed Faizhanudin',
-      image: 'https://i.ibb.co.com/gSmHxD0/man.png',
+      image: 'https://i.ibb.co.com/HYLdnyB/moohmed.jpg',
       description: 'Best cocopeat for moisture retention.',
     },
   ];

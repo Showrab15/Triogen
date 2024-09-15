@@ -6,15 +6,33 @@
   
   .swiper-button-prev {
     
-    color: #3595FC  !important;
+    color: green  !important;
     opacity: 0.4 !important;
-  
+    display: none;
+
   }
   
   .swiper-button-next {
-    
+        display: none;
+
     color: #3595FC  !important;
     opacity: 0.4 !important;
   
   }
-  
+
+  .swiper-button-prev::after{
+    display: none;
+  }
+
+  .swiper-pagination-bullet{
+color: green !important;
+  }
+
+  .swiper-pagination-bullet-active{
+    background-color: green;
+    margin-top: 100px;
+
+  }
+  .swiper-pagination-bullet{
+    margin-top: 50px;
+  }

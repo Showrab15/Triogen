@@ -15,11 +15,11 @@ const Insights = () => {
 
         <div>
           <h1 className="text-3xl font-bold text-gray-800 ml-6 mt-4">
-            Risk & Exit Strategy{" "}
+            ROI{" "}
           </h1>
           <h5 className="ml-6">
             {" "}
-            Projected ROI: 3% to 5% per month (with a 6-month lock-in period)
+            Projected ROI: 2% to 3% per month (with a 6-month lock-in period)
             Returns scale with investment level.
           </h5>
         </div>
@@ -38,9 +38,9 @@ const Insights = () => {
           </h1>
           <h5 className="ml-6">
             {" "}
-            Risk Management: Fully insured shipments from export to delivery.
+             Risk Management: Zero % fully insured shipments from export to delivery.
             Investments guaranteed against any cause. Exit Strategy: Timely
-            pay-out with advance notice
+            pay-out(with a minimum notice of 45 days).
           </h5>
         </div>
       </header>
