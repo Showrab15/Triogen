@@ -36,9 +36,9 @@ const Testimonial = () => {
           className="mySwiper testimonialSwiper "
         >
           <SwiperSlide>
-            <div className="grid grid-cols-1 md:grid-cols-3 p-8  gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-8  gap-8">
               {/* Testimonial 1 */}
-              <div className="bg-white shadow-lg rounded-lg p-6">
+              <div className="bg-white shadow-lg rounded-lg p-6 ">
                 <div className="mb-4">
                   <img
                     className="mx-auto w-24 h-24 rounded-full border-2 border-[#3A5F0B]"
@@ -57,7 +57,7 @@ const Testimonial = () => {
               </div>
 
               {/* Testimonial 2 */}
-              <div className="bg-white shadow-lg rounded-lg p-6">
+              <div className="bg-white md:hidden lg:block shadow-lg rounded-lg p-6">
                 <div className="mb-4">
                   <img
                     className="mx-auto w-24 h-24 rounded-full border-2 border-[#3A5F0B]"
@@ -99,7 +99,7 @@ const Testimonial = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className="grid grid-cols-1 md:grid-cols-3 p-8  gap-8">
+            <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-8 gap-8">
               {/* Testimonial 1 */}
          
 
@@ -122,7 +122,7 @@ const Testimonial = () => {
               </div>
               {/* Testimonial 3 */}
 
-              <div className="bg-white shadow-lg rounded-lg p-6">
+              <div className="bg-white shadow-lg md:hidden lg:block rounded-lg p-6">
                 <div className="mb-4">
                   <img
                     className="mx-auto w-24 h-24 rounded-full border-2 border-[#3A5F0B]"

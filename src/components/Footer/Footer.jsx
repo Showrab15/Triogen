@@ -1,114 +1,118 @@
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import logo from "../../assets/triogen.svg";
 import SocialFooterIcons from "./SocialFooterIcons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
+import {
+  FaAngleRight,
+  FaEnvelope,
+  FaPhoneAlt,
+  FaWhatsapp,
+} from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="mt- ">
-      <div className="bg-[#295f4e]  text-white ">
-        <div className=" mx-auto pt-2">
-          <div className="grid mx-auto ml-[40px] md:ml-4 grid-cols-2 gap-[65px] md:grid-cols-4 md:gap-6 mt-4 ">
-            <div className="md:ml-8 text-sm">
-              <img
-                className="md:w-40 w-32 md:-ml-4 -ml-[15px] mb-5"
-                src={logo}
-                alt="logo"
-              />
-              <div className="-ml-3">
-                <p className="mb-3 mr-2"> <a className="cursor-pointer text-blue-300" href="http://www.triogenexports.com" target="_blank" rel="noopener noreferrer">Triogen Exports</a>
+    <footer>
+      <div className="bg-[#295f4e] text-white px-24 pt-10  ">
+        <div>
+          <div className="-ml-10 sm:-ml-0 grid mx-auto grid-cols-1 gap-10  md:grid-cols-2 lg:grid-cols-3  lg:gap-20  ">
+            <div>
+              <h3 className="text-green-500 font-bold lg:text-3xl  md:txt-2xl sm:sm:text-xl text-lg">
+                Locate US
+              </h3>
+              <div>
+                <p className="my-4 text-base font-medium w-80">
+                  {" "}
+                  <span className="text-green-500 font-bold text-md">
+                    Address
+                  </span>{" "}
+                  : Al Farah plaza Office # 901 Al nahda 2 Behind NMC Hospital
+                  Dubai
                 </p>
-                <p className="mb-3 mr-1  w-48">
-                triogendubai@gmail.com
+
+                <p className="mt-8 gap-4 flex font-semibold">
+                  <span className="text-green-500 text-lg">
+                    <FaPhoneAlt />{" "}
+                  </span>{" "}
+                  +91 94433 33122 (IND)
                 </p>
-                <p className="mb-3 mr-1 w-52">Mobile : +91 94433 33122 (IND)</p>
-                <p className="mb-3 mr- w-56">Mobile : +971 54 265 3665 (UAE)</p>
+                <p className="my-4 gap-4 flex  font-semibold">
+                  <span className="text-green-500 text-xl">
+                    <FaWhatsapp />
+                  </span>{" "}
+                  971 54 265 3665 (UAE)
+                </p>
+                <p className="my-4 gap-4 flex  font-semibold">
+                  <span className="text-green-500 text-xl">
+                    <FaEnvelope />
+                  </span>{" "}
+                  triogendubai@gmail.com
+                </p>
 
                 {/* social icon */}
-                <SocialFooterIcons></SocialFooterIcons>
+                {/* <SocialFooterIcons></SocialFooterIcons> */}
               </div>
             </div>
 
             {/* useful links */}
-            <div className="mt-4 md:ml-10 lg:ml-20 ml-4">
-              <h1 className=" text-base md:text-lg font-semibold mb-5">
-                Our Links
-              </h1>
-              <ul className="text-sm">
-                <li className="mb-2">
-                  <Link to="/" target="_blank" rel="noopener noreferrer">
-                    Home
-                  </Link>
-                </li>
-                <li className="mb-2">
-                  <Link
-                    to="/about-us"
-                   
-                  >
-                    About Us
-                  </Link>
-                </li>
-                
-                <li>
-                  <Link to="/">Contact</Link>
-                </li>
-              </ul>
+
+            <div className="lg:ml-20 md:ml-10">
+              <h3 className="text-green-500 font-bold lg:text-3xl  md:txt-2xl sm:sm:text-xl text-lg">
+                Explore
+              </h3>
+              <div className="flex gap-20">
+                <ul className="my-4 space-y-3 font-medium">
+                  <li className="hover:text-green-500 cursor-pointer flex gap-2 items-center">
+                    {" "}
+                    <FaAngleRight className="text-green-500 cursor-pointer" />
+                    <Link to="/home">Home</Link>
+                  </li>
+                  <li className="hover:text-green-500 cursor-pointer flex gap-2 items-center">
+                    {" "}
+                    <FaAngleRight className="text-green-500 cursor-pointer" />
+                    <Link to="/products">Products</Link>
+                  </li>
+                  <li className="hover:text-green-500 cursor-pointer flex gap-2 items-center">
+                    {" "}
+                    <FaAngleRight className="text-green-500 cursor-pointer" />
+                    <Link to="/investors">Investors</Link>
+                  </li>
+                </ul>
+                <ul className="my-4 space-y-3 font-medium">
+                  <li className="hover:text-green-500 cursor-pointer flex gap-2 items-center">
+                    {" "}
+                    <FaAngleRight className="text-green-500 cursor-pointer" />
+                    <Link to="/about-us"> About Us</Link>
+                  </li>
+                  <li className="w-40 hover:text-green-500 cursor-pointer flex gap-2 items-center">
+                    {" "}
+                    <FaAngleRight className="text-green-500 cursor-pointer" />
+                    <Link to="/contact-us">Contact Us</Link>
+                  </li>
+                </ul>
+              </div>
             </div>
 
-            {/* company */}
-            <div className="md:mt-4 lg:ml-10">
-              <h1 className="text-base md:text-lg font-semibold mb-5">
-                Our Company
-              </h1>
-
-              <ul className="text-sm">
-                <li className="mb-2">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
-                    About Company
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
-                    Our Testimonial
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* support */}
-            <div className="md:mt-4 lg:ml-20 ">
-              <h1 className="text-base md:text-lg font-semibold mb-5">
-                Our Support
-              </h1>
-
-              <ul className="text-sm">
-                <li className="mb-2">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
-                    Customer Support
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
-                    FAQ
-                  </a>
-                </li>
-              </ul>
+            <div className="lg:ml-24">
+              <h3 className="text-green-500 font-bold lg:text-3xl  md:txt-2xl sm:sm:text-xl text-lg">
+                Socials
+              </h3>
+              {/* social icon */}
+              <SocialFooterIcons></SocialFooterIcons>
             </div>
           </div>
 
           {/* bottom */}
-          <div className="mt- py-5 border-y-0 text-center">
-            <hr className="mb-2 border-blue-200" />
-            <p className="">
+          <div className=" py-5 border-y-0 text-center">
+            <hr className="my-2 border-blue-200" />
+            <p className="mt-4">
               &copy; Copyright 2024{" "}
-              <span className="text-blue-500">Triogen Exports</span> - All
+              <span className="text-green-500">Triogen Exports</span> - All
               rights reserved
             </p>
-            <p className="">
+            <p>
               {" "}
-              <FontAwesomeIcon icon={faBolt} className="text-blue-500 mr-2" />
-              Powered By <span className="text-blue-500">
+              <FontAwesomeIcon icon={faBolt} className="text-green-500 mr-2" />
+              Powered By <span className="text-green-500">
                 Creative Lance{" "}
               </span>{" "}
             </p>

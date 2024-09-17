@@ -3,7 +3,7 @@ import './whatsapp.css'
 const Whatsapp = () => {
   const whatsappNumber = "+971542653665"; // Your WhatsApp number (no `+`)
   const defaultMessage =
-    "Hello, I'm interested in learning more about your cocopeat products. Can you provide details on pricing, availability, and shipping options?"; // Default message
+    "Hello.. I’m looking for coir products and came across your company. Could you share details on your range, including specs, pricing, availability and shipping options? Thanks!"; // Default message
 
   return (
     <footer className="footer">

@@ -14,10 +14,10 @@ const BecomeInvestors = () => {
 
     emailjs
       .send(
-        "service_a3not7m",  // Replace with your service ID
-        "template_xy6rz89",  // Replace with your template ID
+        "service_b8kjo7g",  // Replace with your service ID
+        "template_pmukbuv",  // Replace with your template ID
         templateParams,
-        "tYbO0EZ1XPMA3P9Od"  // Replace with your user ID
+        "YpX9JqBgD66PHWO1q"  // Replace with your user ID
       )
       .then(
         (result) => {
