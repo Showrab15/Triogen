@@ -14,7 +14,7 @@ createRoot(document.getElementById("root")).render(
     <Analytics />
     <div
       style={{ fontFamily: "Montserrat" }}
-      className="overflow-x-hidden  max-w-screen-2xl mx-auto bg-gray-700 bg-[#E5D 9B6]"
+      className="overflow-x-hidden font-sw  max-w-screen-2xl mx-auto bg-gray-700 bg-[#E5D 9B6]"
     >
       <RouterProvider router={router} />
     </div>
