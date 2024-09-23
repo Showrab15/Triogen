@@ -30,7 +30,8 @@ const BackToTopbtn = () => {
   return (
     <div>
       {isVisible && (
-      <button className="backToTopButton-animation bg-[#f4e5c2] text-gray-700 text-[15px] font-medium font-serif cursor-pointer 
+      <button className="backToTopButton-animation bg-[#f4e5c2] text-gray-700 text-[15px]
+       font-medium font-serif cursor-pointer 
       fixed right-[40px] bottom-[50px] md:bottom-[40px] md:right-[40px] rounded-md flex
        gap-3 justify-center items-center  p-2 " onClick={scrollToTop}>
      <span className="font-semibold"> <FaArrowUp /></span>

@@ -104,12 +104,12 @@ const Footer = () => {
           {/* bottom */}
           <div className=" py-5 border-y-0 text-center">
             <hr className="my-2 border-blue-200" />
-            <p className="mt-4">
+            <p className="mt-4 ">
               &copy; Copyright 2024{" "}
               <span className="text-green-500">Triogen Exports</span> - All
               rights reserved
             </p>
-            <p>
+            <p className="w-[1000px] text-center mx-auto">
               {" "}
               <FontAwesomeIcon icon={faBolt} className="text-green-500 mr-2" />
               Powered By <span className="text-green-500">

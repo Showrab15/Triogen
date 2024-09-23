@@ -9,12 +9,7 @@
   }
   
   .wpicon-animation {
-    position: fixed; /* Ensure fixed positioning */
-    right: 40px;
-    bottom: 90px;
+   
     z-index: 9999; /* Ensure button is on top */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+  
 }

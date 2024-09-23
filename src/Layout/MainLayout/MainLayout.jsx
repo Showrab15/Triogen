@@ -7,8 +7,8 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { DotLoader } from "react-spinners";
 import { Helmet } from "react-helmet-async";
-import Whatsapp from "../../components/Whatsapp";
 import BackToTopbtn from "../../components/BackToTopBtn/BackToTopBtn";
+import Whatsapp from "../../components/Whatsapp/Whatsapp";
 
 const MainLayout = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -66,12 +66,12 @@ const MainLayout = () => {
 
           <Navbar />
           <Outlet />
+
           <Footer />
           <SpeedInsights />
           <Analytics />
-          <Whatsapp/>
           <BackToTopbtn/>
-
+<Whatsapp/>
         </>
       )}
     </>
