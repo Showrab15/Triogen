@@ -30,6 +30,8 @@ const OurTeam = () => {
         >
           {/* Image */}
           <div className="relative w-full h-64">
+
+            
             <img
               src={card.image}
               alt={card.name}

@@ -10,6 +10,7 @@ const Header = () => {
       <div>
         <Carousel showArrows={false} onClickItem={true} className="">
           <div className="relative w-full h-[230px] sm:h-[415px] md:h-[400px] lg:h-[500px] overflow-hidden">
+            
             <video
               autoPlay
               loop
