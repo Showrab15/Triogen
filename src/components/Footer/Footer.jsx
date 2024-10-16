@@ -25,8 +25,7 @@ const Footer = () => {
                   <span className="text-green-500 font-bold text-md">
                     Address
                   </span>{" "}
-                  : Al Farah plaza Office # 901 Al nahda 2 Behind NMC Hospital
-                  Dubai
+                  : Office No-2901, Silver Tower, Business Bay, Dubai UAE
                 </p>
 
                 <p className="mt-8 gap-4 flex font-semibold">
