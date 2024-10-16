@@ -82,11 +82,12 @@ const Footer = () => {
                     <FaAngleRight className="text-green-500 cursor-pointer" />
                     <Link to="/about-us"> About Us</Link>
                   </li>
-                  <li className="w-40 hover:text-green-500 cursor-pointer flex gap-2 items-center">
+                  {/* <li className="w-40 hover:text-green-500 cursor-pointer flex gap-2 items-center">
                     {" "}
                     <FaAngleRight className="text-green-500 cursor-pointer" />
                     <Link to="/contact-us">Contact Us</Link>
-                  </li>
+                  </li> */}
+                  
                 </ul>
               </div>
             </div>
