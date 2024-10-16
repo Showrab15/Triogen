@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className=" bg-[#295f4e]  ">
       <div className="flex items-center flex-row justify-between   py-5 relative w-full max-w-[1322px] mx-auto">
-        <Link to="/">
+        <Link rel="canonical" to="/">
           <img
             src={logo}
             className="w-48 h-10 lg:w-80 lg:h-20"
@@ -26,6 +26,7 @@ const Navbar = () => {
           <ul className=" mr-20  hidden md:flex items-center justify-center space-x-9 text-lg text-[#f4e5c2] font-medium relative ">
             <li>
               <NavLink
+                rel="canonical"
                 to="/home"
                 aria-label="Home"
                 title="Home"
@@ -36,6 +37,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
+                rel="canonical"
                 to="/products"
                 aria-label="products"
                 title="products"
@@ -46,6 +48,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
+                rel="canonical"
                 to="/investors"
                 aria-label="investors"
                 title="investors"
@@ -56,6 +59,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
+                rel="canonical"
                 to="/about-Us"
                 aria-label="about"
                 title="about"
@@ -66,7 +70,6 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-       
 
         {/*----------------------- Mobile Menu -------------------------*/}
         <div className="md:hidden">
@@ -116,6 +119,7 @@ const Navbar = () => {
             <ul className="flex flex-col gap-4 text-left font-medium  leading-6 text-[16px] text-white">
               <li>
                 <NavLink
+                  rel="canonical"
                   to="/home"
                   aria-label="Home"
                   title="Home"
@@ -129,6 +133,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
+                  rel="canonical"
                   to="/products"
                   aria-label="products"
                   title="products"
@@ -142,6 +147,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
+                  rel="canonical"
                   to="/investors"
                   aria-label="investors"
                   title="investors"
@@ -150,11 +156,12 @@ const Navbar = () => {
                   }
                   onClick={closeMenu} // Close menu when clicked
                 >
-                 Investors
+                  Investors
                 </NavLink>
               </li>
               <li>
                 <NavLink
+                  rel="canonical"
                   to="about-Us"
                   aria-label="about"
                   title="about"
@@ -167,7 +174,6 @@ const Navbar = () => {
                 </NavLink>
               </li>
             </ul>
-           
           </div>
         </div>
       </div>
