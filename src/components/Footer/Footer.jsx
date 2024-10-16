@@ -77,7 +77,7 @@ const Footer = () => {
                   </li>
                 </ul>
                 <ul className="my-4 space-y-3 font-medium">
-                  <li className="hover:text-green-500 cursor-pointer flex gap-2 items-center">
+                  <li className="w-40 hover:text-green-500 cursor-pointer flex gap-2 items-center">
                     {" "}
                     <FaAngleRight className="text-green-500 cursor-pointer" />
                     <Link to="/about-us"> About Us</Link>
@@ -87,7 +87,7 @@ const Footer = () => {
                     <FaAngleRight className="text-green-500 cursor-pointer" />
                     <Link to="/contact-us">Contact Us</Link>
                   </li> */}
-                  
+
                 </ul>
               </div>
             </div>
